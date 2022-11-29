@@ -9,13 +9,25 @@
 /* Begin PBXBuildFile section */
 		DF4E599829366C9B0092D405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E599729366C9B0092D405 /* AppDelegate.swift */; };
 		DF4E599A29366C9B0092D405 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E599929366C9B0092D405 /* SceneDelegate.swift */; };
-		DF4E599C29366C9B0092D405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E599B29366C9B0092D405 /* ViewController.swift */; };
-		DF4E599F29366C9B0092D405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4E599D29366C9B0092D405 /* Main.storyboard */; };
 		DF4E59A129366C9D0092D405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4E59A029366C9D0092D405 /* Assets.xcassets */; };
 		DF4E59A429366C9D0092D405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4E59A229366C9D0092D405 /* LaunchScreen.storyboard */; };
 		DF4E59AF29366C9D0092D405 /* Sepia_PetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59AE29366C9D0092D405 /* Sepia_PetsTests.swift */; };
 		DF4E59B929366C9D0092D405 /* Sepia_PetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59B829366C9D0092D405 /* Sepia_PetsUITests.swift */; };
 		DF4E59BB29366C9D0092D405 /* Sepia_PetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59BA29366C9D0092D405 /* Sepia_PetsUITestsLaunchTests.swift */; };
+		DF4E59CC293679AC0092D405 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = DF4E59CA293679AC0092D405 /* config.json */; };
+		DF4E59CD293679AC0092D405 /* pets_list.json in Resources */ = {isa = PBXBuildFile; fileRef = DF4E59CB293679AC0092D405 /* pets_list.json */; };
+		DF4E59CF29367C510092D405 /* AppAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59CE29367C510092D405 /* AppAppearance.swift */; };
+		DF4E59D729367FDB0092D405 /* PetsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59D529367FDB0092D405 /* PetsListViewController.swift */; };
+		DF4E59DA2936804C0092D405 /* PetsListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4E59D92936804C0092D405 /* PetsListViewController.storyboard */; };
+		DF4E59DE293681A80092D405 /* StoryboardInstantiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59DD293681A80092D405 /* StoryboardInstantiable.swift */; };
+		DF4E59E0293682620092D405 /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59DF293682620092D405 /* Alertable.swift */; };
+		DF4E59E2293686F70092D405 /* PetListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59E1293686F70092D405 /* PetListViewModel.swift */; };
+		DF4E59E4293688100092D405 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59E3293688100092D405 /* Pet.swift */; };
+		DF4E59E829368AF40092D405 /* LocalDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59E729368AF40092D405 /* LocalDataRepository.swift */; };
+		DF4E59EA29368C4C0092D405 /* DataLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59E929368C4C0092D405 /* DataLoad.swift */; };
+		DF4E59EF293694730092D405 /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59ED293694730092D405 /* PetTableViewCell.swift */; };
+		DF4E59F0293694730092D405 /* PetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4E59EE293694730092D405 /* PetTableViewCell.xib */; };
+		DF4E59F3293696280092D405 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59F2293696280092D405 /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +51,6 @@
 		DF4E599429366C9B0092D405 /* Sepia Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sepia Pets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4E599729366C9B0092D405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF4E599929366C9B0092D405 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF4E599B29366C9B0092D405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF4E599E29366C9B0092D405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF4E59A029366C9D0092D405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF4E59A329366C9D0092D405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF4E59A529366C9D0092D405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +59,20 @@
 		DF4E59B429366C9D0092D405 /* Sepia PetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sepia PetsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4E59B829366C9D0092D405 /* Sepia_PetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_PetsUITests.swift; sourceTree = "<group>"; };
 		DF4E59BA29366C9D0092D405 /* Sepia_PetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sepia_PetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DF4E59CA293679AC0092D405 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		DF4E59CB293679AC0092D405 /* pets_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pets_list.json; sourceTree = "<group>"; };
+		DF4E59CE29367C510092D405 /* AppAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAppearance.swift; sourceTree = "<group>"; };
+		DF4E59D529367FDB0092D405 /* PetsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsListViewController.swift; sourceTree = "<group>"; };
+		DF4E59D92936804C0092D405 /* PetsListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PetsListViewController.storyboard; sourceTree = "<group>"; };
+		DF4E59DD293681A80092D405 /* StoryboardInstantiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiable.swift; sourceTree = "<group>"; };
+		DF4E59DF293682620092D405 /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+		DF4E59E1293686F70092D405 /* PetListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetListViewModel.swift; sourceTree = "<group>"; };
+		DF4E59E3293688100092D405 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		DF4E59E729368AF40092D405 /* LocalDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataRepository.swift; sourceTree = "<group>"; };
+		DF4E59E929368C4C0092D405 /* DataLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoad.swift; sourceTree = "<group>"; };
+		DF4E59ED293694730092D405 /* PetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
+		DF4E59EE293694730092D405 /* PetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetTableViewCell.xib; sourceTree = "<group>"; };
+		DF4E59F2293696280092D405 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +123,11 @@
 		DF4E599629366C9B0092D405 /* Sepia Pets */ = {
 			isa = PBXGroup;
 			children = (
-				DF4E599729366C9B0092D405 /* AppDelegate.swift */,
-				DF4E599929366C9B0092D405 /* SceneDelegate.swift */,
-				DF4E599B29366C9B0092D405 /* ViewController.swift */,
-				DF4E599D29366C9B0092D405 /* Main.storyboard */,
-				DF4E59A029366C9D0092D405 /* Assets.xcassets */,
-				DF4E59A229366C9D0092D405 /* LaunchScreen.storyboard */,
-				DF4E59A529366C9D0092D405 /* Info.plist */,
+				DF4E59EB293693570092D405 /* Helpers */,
+				DF4E59E529368AC60092D405 /* Data */,
+				DF4E59D029367D950092D405 /* Presentation */,
+				DF4E59C8293678DC0092D405 /* Application */,
+				DF4E59C72936789A0092D405 /* Resources */,
 			);
 			path = "Sepia Pets";
 			sourceTree = "<group>";
@@ -125,6 +147,140 @@
 				DF4E59BA29366C9D0092D405 /* Sepia_PetsUITestsLaunchTests.swift */,
 			);
 			path = "Sepia PetsUITests";
+			sourceTree = "<group>";
+		};
+		DF4E59C72936789A0092D405 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59C9293679930092D405 /* Files */,
+				DF4E59A029366C9D0092D405 /* Assets.xcassets */,
+				DF4E59A229366C9D0092D405 /* LaunchScreen.storyboard */,
+				DF4E59A529366C9D0092D405 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF4E59C8293678DC0092D405 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E599729366C9B0092D405 /* AppDelegate.swift */,
+				DF4E599929366C9B0092D405 /* SceneDelegate.swift */,
+				DF4E59CE29367C510092D405 /* AppAppearance.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DF4E59C9293679930092D405 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59CA293679AC0092D405 /* config.json */,
+				DF4E59CB293679AC0092D405 /* pets_list.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		DF4E59D029367D950092D405 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59DB293680770092D405 /* Utils */,
+				DF4E59D129367D9F0092D405 /* PetList */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DF4E59D129367D9F0092D405 /* PetList */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59D429367DCB0092D405 /* ViewModel */,
+				DF4E59D329367DC50092D405 /* Entities */,
+				DF4E59D229367DB30092D405 /* View */,
+			);
+			path = PetList;
+			sourceTree = "<group>";
+		};
+		DF4E59D229367DB30092D405 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59EC2936944D0092D405 /* Cell */,
+				DF4E59D529367FDB0092D405 /* PetsListViewController.swift */,
+				DF4E59D92936804C0092D405 /* PetsListViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF4E59D329367DC50092D405 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59E3293688100092D405 /* Pet.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		DF4E59D429367DCB0092D405 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59E1293686F70092D405 /* PetListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DF4E59DB293680770092D405 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59F1293695FE0092D405 /* Extensions */,
+				DF4E59DC2936807E0092D405 /* Protocols */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DF4E59DC2936807E0092D405 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59DD293681A80092D405 /* StoryboardInstantiable.swift */,
+				DF4E59DF293682620092D405 /* Alertable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		DF4E59E529368AC60092D405 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59E629368AD10092D405 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		DF4E59E629368AD10092D405 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59E729368AF40092D405 /* LocalDataRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		DF4E59EB293693570092D405 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59E929368C4C0092D405 /* DataLoad.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DF4E59EC2936944D0092D405 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59ED293694730092D405 /* PetTableViewCell.swift */,
+				DF4E59EE293694730092D405 /* PetTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DF4E59F1293695FE0092D405 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59F2293696280092D405 /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +388,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF4E59A429366C9D0092D405 /* LaunchScreen.storyboard in Resources */,
+				DF4E59CC293679AC0092D405 /* config.json in Resources */,
 				DF4E59A129366C9D0092D405 /* Assets.xcassets in Resources */,
-				DF4E599F29366C9B0092D405 /* Main.storyboard in Resources */,
+				DF4E59F0293694730092D405 /* PetTableViewCell.xib in Resources */,
+				DF4E59CD293679AC0092D405 /* pets_list.json in Resources */,
+				DF4E59DA2936804C0092D405 /* PetsListViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +417,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF4E599C29366C9B0092D405 /* ViewController.swift in Sources */,
+				DF4E59E0293682620092D405 /* Alertable.swift in Sources */,
+				DF4E59EA29368C4C0092D405 /* DataLoad.swift in Sources */,
+				DF4E59E2293686F70092D405 /* PetListViewModel.swift in Sources */,
+				DF4E59E829368AF40092D405 /* LocalDataRepository.swift in Sources */,
+				DF4E59E4293688100092D405 /* Pet.swift in Sources */,
 				DF4E599829366C9B0092D405 /* AppDelegate.swift in Sources */,
+				DF4E59F3293696280092D405 /* UIImageView+Extension.swift in Sources */,
+				DF4E59EF293694730092D405 /* PetTableViewCell.swift in Sources */,
 				DF4E599A29366C9B0092D405 /* SceneDelegate.swift in Sources */,
+				DF4E59D729367FDB0092D405 /* PetsListViewController.swift in Sources */,
+				DF4E59DE293681A80092D405 /* StoryboardInstantiable.swift in Sources */,
+				DF4E59CF29367C510092D405 /* AppAppearance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +465,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF4E599D29366C9B0092D405 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF4E599E29366C9B0092D405 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF4E59A229366C9D0092D405 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +580,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,12 +599,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UHS3ME8RKM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Sepia Pets/Info.plist";
+				INFOPLIST_FILE = "Sepia Pets/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,12 +628,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UHS3ME8RKM;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Sepia Pets/Info.plist";
+				INFOPLIST_FILE = "Sepia Pets/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
