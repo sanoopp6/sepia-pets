@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PetsListViewController: UIViewController, StoryboardInstantiable {
+class PetsListViewController: UIViewController, StoryboardInstantiable, Alertable {
 
     private var petListViewModel: PetListViewModel!
     @IBOutlet weak var petsTableView: UITableView!
@@ -64,6 +64,14 @@ extension PetsListViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.navigationController?.pushViewController(PetDetailViewController.create(pet: self.petListViewModel.pets[indexPath.row]), animated: true)
+        
+        let config: Config =  dataLoad("config.json")
+        
+        if (checkWorkingTime(input: config.settings.workHours!)) {
+            self.navigationController?.pushViewController(PetDetailViewController.create(pet: self.petListViewModel.pets[indexPath.row]), animated: true)
+        } else {
+            showAlert(title: "Sorry!", message: "Content is only available during the working time")
+        }
+        
     }
 }

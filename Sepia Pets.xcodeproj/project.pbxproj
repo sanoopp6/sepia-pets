@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF3C522D2936AD09003D2C52 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C522C2936AD09003D2C52 /* Settings.swift */; };
 		DF4E599829366C9B0092D405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E599729366C9B0092D405 /* AppDelegate.swift */; };
 		DF4E599A29366C9B0092D405 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E599929366C9B0092D405 /* SceneDelegate.swift */; };
 		DF4E59A129366C9D0092D405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4E59A029366C9D0092D405 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		DF4E59FB2936A1100092D405 /* PetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59FA2936A1100092D405 /* PetDetailViewController.swift */; };
 		DF4E5A032936A8B20092D405 /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4E5A012936A8B20092D405 /* page1.png */; };
 		DF4E5A042936A8B20092D405 /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4E5A022936A8B20092D405 /* page2.png */; };
+		DF4E5A062936A9A30092D405 /* WorkingTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E5A052936A9A30092D405 /* WorkingTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF3C522C2936AD09003D2C52 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		DF4E599429366C9B0092D405 /* Sepia Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sepia Pets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4E599729366C9B0092D405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF4E599929366C9B0092D405 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 		DF4E59FA2936A1100092D405 /* PetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailViewController.swift; sourceTree = "<group>"; };
 		DF4E5A012936A8B20092D405 /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
 		DF4E5A022936A8B20092D405 /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		DF4E5A052936A9A30092D405 /* WorkingTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				DF4E59E3293688100092D405 /* Pet.swift */,
+				DF3C522C2936AD09003D2C52 /* Settings.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				DF4E59E929368C4C0092D405 /* DataLoad.swift */,
+				DF4E5A052936A9A30092D405 /* WorkingTime.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -458,12 +464,14 @@
 			files = (
 				DF4E59E0293682620092D405 /* Alertable.swift in Sources */,
 				DF4E59EA29368C4C0092D405 /* DataLoad.swift in Sources */,
+				DF4E5A062936A9A30092D405 /* WorkingTime.swift in Sources */,
 				DF4E59E2293686F70092D405 /* PetListViewModel.swift in Sources */,
 				DF4E59E829368AF40092D405 /* LocalDataRepository.swift in Sources */,
 				DF4E59E4293688100092D405 /* Pet.swift in Sources */,
 				DF4E599829366C9B0092D405 /* AppDelegate.swift in Sources */,
 				DF4E59F3293696280092D405 /* UIImageView+Extension.swift in Sources */,
 				DF4E59EF293694730092D405 /* PetTableViewCell.swift in Sources */,
+				DF3C522D2936AD09003D2C52 /* Settings.swift in Sources */,
 				DF4E599A29366C9B0092D405 /* SceneDelegate.swift in Sources */,
 				DF4E59D729367FDB0092D405 /* PetsListViewController.swift in Sources */,
 				DF4E59DE293681A80092D405 /* StoryboardInstantiable.swift in Sources */,
