@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pet Detail View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="PetDetailViewController" customModule="Sepia_Pets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBC-vf-Ckj">
+                                <rect key="frame" x="16" y="67" width="358" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" red="0.1333333333" green="0.1333333333" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uvj-P8-FkX">
+                                <rect key="frame" x="16" y="107" width="358" height="687"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZBC-vf-Ckj" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="HuO-ws-Q85"/>
+                            <constraint firstItem="ZBC-vf-Ckj" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="LSF-Jg-TdA"/>
+                            <constraint firstItem="uvj-P8-FkX" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="Os2-AC-ydv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ZBC-vf-Ckj" secondAttribute="trailing" constant="16" id="RnF-t5-dd1"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="uvj-P8-FkX" secondAttribute="bottom" constant="16" id="SRo-Ko-VuC"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="uvj-P8-FkX" secondAttribute="trailing" constant="16" id="dsl-uL-v8G"/>
+                            <constraint firstItem="uvj-P8-FkX" firstAttribute="top" secondItem="ZBC-vf-Ckj" secondAttribute="bottom" constant="16" id="gsq-8f-QoO"/>
+                            <constraint firstItem="ZBC-vf-Ckj" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="vle-mq-7on"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="detailWebView" destination="uvj-P8-FkX" id="5JG-9d-0TA"/>
+                        <outlet property="petNameLabel" destination="ZBC-vf-Ckj" id="Lvx-uz-hTq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="66" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

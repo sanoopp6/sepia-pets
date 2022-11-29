@@ -62,4 +62,8 @@ extension PetsListViewController: UITableViewDataSource {
         cell.petData = petListViewModel.pets[indexPath.row]
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.navigationController?.pushViewController(PetDetailViewController.create(pet: self.petListViewModel.pets[indexPath.row]), animated: true)
+    }
 }

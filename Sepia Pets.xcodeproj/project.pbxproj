@@ -28,6 +28,8 @@
 		DF4E59EF293694730092D405 /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59ED293694730092D405 /* PetTableViewCell.swift */; };
 		DF4E59F0293694730092D405 /* PetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4E59EE293694730092D405 /* PetTableViewCell.xib */; };
 		DF4E59F3293696280092D405 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59F2293696280092D405 /* UIImageView+Extension.swift */; };
+		DF4E59F92936A1040092D405 /* PetDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4E59F82936A1040092D405 /* PetDetailViewController.storyboard */; };
+		DF4E59FB2936A1100092D405 /* PetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E59FA2936A1100092D405 /* PetDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		DF4E59ED293694730092D405 /* PetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
 		DF4E59EE293694730092D405 /* PetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetTableViewCell.xib; sourceTree = "<group>"; };
 		DF4E59F2293696280092D405 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		DF4E59F82936A1040092D405 /* PetDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PetDetailViewController.storyboard; sourceTree = "<group>"; };
+		DF4E59FA2936A1100092D405 /* PetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,8 +186,9 @@
 		DF4E59D029367D950092D405 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				DF4E59DB293680770092D405 /* Utils */,
+				DF4E59F62936A0660092D405 /* PetDetail */,
 				DF4E59D129367D9F0092D405 /* PetList */,
+				DF4E59DB293680770092D405 /* Utils */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -281,6 +286,23 @@
 				DF4E59F2293696280092D405 /* UIImageView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DF4E59F62936A0660092D405 /* PetDetail */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59F72936A0D70092D405 /* View */,
+			);
+			path = PetDetail;
+			sourceTree = "<group>";
+		};
+		DF4E59F72936A0D70092D405 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF4E59F82936A1040092D405 /* PetDetailViewController.storyboard */,
+				DF4E59FA2936A1100092D405 /* PetDetailViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -393,6 +415,7 @@
 				DF4E59F0293694730092D405 /* PetTableViewCell.xib in Resources */,
 				DF4E59CD293679AC0092D405 /* pets_list.json in Resources */,
 				DF4E59DA2936804C0092D405 /* PetsListViewController.storyboard in Resources */,
+				DF4E59F92936A1040092D405 /* PetDetailViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +451,7 @@
 				DF4E599A29366C9B0092D405 /* SceneDelegate.swift in Sources */,
 				DF4E59D729367FDB0092D405 /* PetsListViewController.swift in Sources */,
 				DF4E59DE293681A80092D405 /* StoryboardInstantiable.swift in Sources */,
+				DF4E59FB2936A1100092D405 /* PetDetailViewController.swift in Sources */,
 				DF4E59CF29367C510092D405 /* AppAppearance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
