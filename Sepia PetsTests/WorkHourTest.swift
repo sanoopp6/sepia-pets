@@ -1,22 +1,30 @@
 //
-//  Sepia_PetsTests.swift
+//  WorkHourTest.swift
 //  Sepia PetsTests
 //
-//  Created by Sanoop PM on 29/11/22.
+//  Created by Sanoop PM on 30/11/22.
 //
 
 import XCTest
-@testable import Sepia_Pets
 
-final class Sepia_PetsTests: XCTestCase {
-
+final class WorkHourTest: XCTestCase {
+    
+    var configTime11AM: Settings!
+    var configStartDayWednesday: Settings!
+    var configAllDay: Settings!
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-     
+        configTime11AM = Settings(workHours: "M-F 11:00 - 18:00")
+        configStartDayWednesday = Settings(workHours: "W-F 9:00 - 18:00")
+        configAllDay = Settings(workHours: "S-Sa 1:00 - 24:00")
+        
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        configTime11AM = nil
+        configStartDayWednesday = nil
     }
 
     func testExample() throws {
@@ -34,4 +42,14 @@ final class Sepia_PetsTests: XCTestCase {
         }
     }
 
+    func testConfigTime11AM() {
+        XCTAssertTrue(checkWorkingTime(input: configTime11AM.workHours!))
+    }
+    
+    func testStartDayWednesday() {
+        XCTAssertTrue(checkWorkingTime(input: configTime11AM.workHours!))
+    }
+    func testAllDay() {
+        XCTAssertTrue(checkWorkingTime(input: configAllDay.workHours!))
+    }
 }

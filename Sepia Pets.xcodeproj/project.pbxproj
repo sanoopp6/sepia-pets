@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DF3C522D2936AD09003D2C52 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C522C2936AD09003D2C52 /* Settings.swift */; };
+		DF3C52322936C8E0003D2C52 /* WorkHourTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C52312936C8E0003D2C52 /* WorkHourTest.swift */; };
+		DF3C52332936C8E8003D2C52 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3C522C2936AD09003D2C52 /* Settings.swift */; };
+		DF3C52342936CA25003D2C52 /* WorkingTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E5A052936A9A30092D405 /* WorkingTime.swift */; };
 		DF4E599829366C9B0092D405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E599729366C9B0092D405 /* AppDelegate.swift */; };
 		DF4E599A29366C9B0092D405 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E599929366C9B0092D405 /* SceneDelegate.swift */; };
 		DF4E59A129366C9D0092D405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4E59A029366C9D0092D405 /* Assets.xcassets */; };
@@ -55,6 +58,7 @@
 
 /* Begin PBXFileReference section */
 		DF3C522C2936AD09003D2C52 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		DF3C52312936C8E0003D2C52 /* WorkHourTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkHourTest.swift; sourceTree = "<group>"; };
 		DF4E599429366C9B0092D405 /* Sepia Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sepia Pets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4E599729366C9B0092D405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF4E599929366C9B0092D405 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				DF4E59AE29366C9D0092D405 /* Sepia_PetsTests.swift */,
+				DF3C52312936C8E0003D2C52 /* WorkHourTest.swift */,
 			);
 			path = "Sepia PetsTests";
 			sourceTree = "<group>";
@@ -484,6 +489,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF3C52342936CA25003D2C52 /* WorkingTime.swift in Sources */,
+				DF3C52332936C8E8003D2C52 /* Settings.swift in Sources */,
+				DF3C52322936C8E0003D2C52 /* WorkHourTest.swift in Sources */,
 				DF4E59AF29366C9D0092D405 /* Sepia_PetsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -705,7 +713,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UHS3ME8RKM;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sepia.Sepia-PetsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -725,7 +733,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UHS3ME8RKM;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sepia.Sepia-PetsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
