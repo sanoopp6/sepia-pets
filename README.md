@@ -6,7 +6,7 @@ mobile application.</p>
 
 <p align="row">
 <img src= "https://github.com/sanoopp6/sepia-pets/blob/main/Sepia%20Pets/Resources/Screenshots/page1.png" width="400" >
-<img src= "https://github.com/sanoopp6/sepia-pets/blob/main/Sepia%20Pets/Resources/Screenshots/page1.png" width="400" >
+<img src= "https://github.com/sanoopp6/sepia-pets/blob/main/Sepia%20Pets/Resources/Screenshots/page2.png" width="400" >
 </p>
 
 ## Features
